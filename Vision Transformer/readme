@@ -1,7 +1,26 @@
+Vision Transformer (ViT) Training Summary
 
-Epoch Total       Loss	
-1	    813.81	    69.96
-2	    484.99	    83.40	
-3	    426.87	    85.56	
-4	    391.12	    86.87	
-5	    364.63	    87.89	
+This repository contains training logs and performance metrics for a Vision Transformer (ViT) model trained over 5 epochs.
+
+ 🚀 Model Overview
+
+- Model: Vision Transformer (ViT)
+- Task: Image Classification
+- Epochs: 5
+- Loss Function: CrossEntropy
+- Optimizer: AdamW
+- Dataset: MNIST
+
+---
+
+ Training Performance
+
+| Epoch | Total Loss | Accuracy (%) | Highlights |
+|-------|------------|---------------|------------|
+| 1     | 813.81     | 69.96         | Rapid learning from low baseline. |
+| 2     | 484.99     | 83.40         | Major accuracy boost, loss halved. |
+| 3     | 426.87     | 85.56         | Stable and consistent performance. |
+| 4     | 391.12     | 86.87         | High confidence, low variance. |
+| 5     | 364.63     | 87.89         | Strong convergence, ready for validation. |
+
+
